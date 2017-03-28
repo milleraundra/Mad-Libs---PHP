@@ -10,11 +10,8 @@
 
 <!DOCTYPE html>
 <html>
-<p>American children are fascinated by <?php echo $_GET['adjective']?>.</p>
-<h1>Adjective: </h1>
-<h1>pluralNoun1: <?php echo $_GET['pluralNoun1']?></h1>
-<h1>pluralNoun2: <?php echo $_GET['pluralNoun2']?></h1>
-<h1>sillyWord: <?php echo $_GET['sillyWord']?></h1>
-<h1>liquid: <?php echo $_GET['liquid']?></h1>
 
+<p>American children are fascinated by <?php echo $_GET['adjective']?> stuff -- like stories that scare the <?php echo $_GET['pluralNoun1']?> off them or make their <?php echo $_GET['pluralNoun1']?> stand on end.</p>
+
+<p>Scientists say this is because being frightened causes the <?php echo $_GET['sillyWord']?> gland to function and puts <?php echo $_GET['liquid']?> into their blood.</p>
 </html>
